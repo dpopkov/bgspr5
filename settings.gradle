@@ -1,0 +1,4 @@
+rootProject.name = 'bgspr5'
+
+include 'ch02'
+
