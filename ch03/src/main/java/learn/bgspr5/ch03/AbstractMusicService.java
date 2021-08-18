@@ -56,9 +56,9 @@ public abstract class AbstractMusicService implements MusicService, Resettable {
 
     @Override
     public List<String> getMatchingSongNamesForArtist(String artistName, String songPrefix) {
-        String normalizedPrefix = transformSong(songPrefix);
-        return getArtist(artistName).getSongs().keySet()
-                .stream()
+        String normalizedPrefix = transformSong(songPrefix).toLowerCase();
+        final Set<String> songNames = getArtist(artistName).getSongs().keySet();
+        return songNames.stream()
                 .map(this::transformSong)
                 .filter(songName -> songName.toLowerCase().startsWith(normalizedPrefix))
                 .sorted(Comparator.comparing(Function.identity()))
@@ -67,7 +67,7 @@ public abstract class AbstractMusicService implements MusicService, Resettable {
 
     @Override
     public List<String> getMatchingArtistNames(String prefix) {
-        String normalizedPrefix = transformSong(prefix);
+        String normalizedPrefix = transformSong(prefix).toLowerCase();
         return bands.keySet()
                 .stream()
                 .filter(name -> name.toLowerCase().startsWith(normalizedPrefix))
