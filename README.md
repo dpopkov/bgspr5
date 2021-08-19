@@ -14,3 +14,7 @@
 * Configuration through Java
     * Declaring Components with @Bean
     * Using Programmatic Configuration for ApplicationContext
+    * Writing Components together with @Autowired with Static Configuration (configuration 8)
+    * Using @Qualifier to select specific Components for wiring (configuration 9)
+    * Constructor injection with Static Configuration (configuration 10)
+    * Testing every configuration with a DataProvider
