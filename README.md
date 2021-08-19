@@ -7,3 +7,6 @@
     * Wiring Components Together with @Autowired
     * Choosing Components with @Qualifier and Bean Names
     * Constructor Injection with Annotations
+* Configuration through XML
+    * Declaring a Bean with <bean/>
+    * Wiring Components together with <property/>
