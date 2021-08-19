@@ -11,3 +11,6 @@
     * Declaring a Bean with <bean/>
     * Wiring Components together with <property/>
     * Wiring Components together with <constructor-arg/>
+* Configuration through Java
+    * Declaring Components with @Bean
+    * Using Programmatic Configuration for ApplicationContext

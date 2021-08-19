@@ -1,0 +1,16 @@
+package learn.bgspr5.ch03;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MusicServiceRunner {
+    public static void main(String[] args) {
+        Class<?>[] configurations = new Class[]
+                {Configuration7.class, TestConfiguration.class};
+        ApplicationContext context = new AnnotationConfigApplicationContext(configurations);
+        System.out.println("\n# Bean Definition names");
+        for (String name : context.getBeanDefinitionNames()) {
+            System.out.println(name);
+        }
+    }
+}
