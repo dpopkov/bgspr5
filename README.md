@@ -20,3 +20,5 @@
     * Testing every configuration with a DataProvider
 * Intro to Lifecycle
     * Scope
+    * Calling Constructors
+    * Calling Methods after Construction and before Destruction
