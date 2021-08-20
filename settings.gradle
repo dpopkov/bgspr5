@@ -2,3 +2,4 @@ rootProject.name = 'bgspr5'
 
 include 'ch02'
 include 'ch03'
+include 'ch04'

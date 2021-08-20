@@ -18,3 +18,5 @@
     * Using @Qualifier to select specific Components for wiring (configuration 9)
     * Constructor injection with Static Configuration (configuration 10)
     * Testing every configuration with a DataProvider
+* Intro to Lifecycle
+    * Scope
