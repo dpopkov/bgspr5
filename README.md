@@ -26,3 +26,4 @@
 * Lifecycle with JSR-250 Annotations
     * Annotated Beans with Scopes
     * Calling Methods after Construction and before Destruction
+* Lifecycle with Java Configuration
