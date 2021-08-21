@@ -23,4 +23,5 @@
     * Calling Constructors
     * Calling Methods after Construction and before Destruction
     * Lifecycle Listeners
-
+* Lifecycle with JSR-250 Annotations
+    * Annotated Beans with Scopes
