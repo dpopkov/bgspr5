@@ -27,3 +27,6 @@
     * Annotated Beans with Scopes
     * Calling Methods after Construction and before Destruction
 * Lifecycle with Java Configuration
+* The Annotation-Based Web Application
+    * First Standalone working servlet
+        * Start the servlet container: `gradle :ch5anno:tomcatStartWar`
