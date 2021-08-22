@@ -30,3 +30,5 @@
 * The Annotation-Based Web Application
     * First Standalone working servlet
         * Start the servlet container: `gradle :ch5anno:tomcatStartWar`
+    * Adding a Spring Context for servlets
+        * Testing manually: `curl "http://localhost:8080/ch05anno/vote?artist=Therapy+Zeppelin&song=Medium"`
