@@ -35,3 +35,8 @@
 * The XML-Based Spring Context Application
     * Start the servlet container: `gradle :ch5xml:tomcatStartWar`
     * Testing manually: `curl "http://localhost:8080/ch05xml/vote?artist=Therapy+Zeppelin&song=Medium"`
+* Spring MVC
+    * Hello World with MVC
+        * Start: `gradle :ch06:tomcatStartWar`
+        * Test manually: `curl http://localhost:8080/ch06/greeting` 
+        * Stop: `gradle :ch06:appStop`
