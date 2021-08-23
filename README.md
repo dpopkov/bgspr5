@@ -32,3 +32,6 @@
         * Start the servlet container: `gradle :ch5anno:tomcatStartWar`
     * Adding a Spring Context for servlets
         * Testing manually: `curl "http://localhost:8080/ch05anno/vote?artist=Therapy+Zeppelin&song=Medium"`
+* The XML-Based Spring Context Application
+    * Start the servlet container: `gradle :ch5xml:tomcatStartWar`
+    * Testing manually: `curl "http://localhost:8080/ch05xml/vote?artist=Therapy+Zeppelin&song=Medium"`
