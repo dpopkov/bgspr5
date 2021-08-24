@@ -40,3 +40,4 @@
         * Start: `gradle :ch06:tomcatStartWar`
         * Test manually: `curl http://localhost:8080/ch06/greeting` 
         * Stop: `gradle :ch06:appStop`
+    * Developing Endpoint with MVC
