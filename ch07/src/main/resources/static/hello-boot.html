@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello, World</title>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        function submitForm() {
+            $.get('http://localhost:8080/greeting/'
+                + $('#hello-form input[name=name]').val(),
+                function (data) {
+                    $("#greeting").text(data.message);
+                },
+                'json');
+        }
+    </script>
+    <style>
+        p#greeting {
+            font-family: "Andale Mono", monospace;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form id="hello-form">
+        <p>
+            <label>
+                Hello, what is your name?
+                <input type="text" name="name">
+            </label>
+            <input type="button" value="Submit" onclick="submitForm()">
+        </p>
+        <p id="greeting"></p>
+    </form>
+</div>
+</body>
+</html>

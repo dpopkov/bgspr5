@@ -42,3 +42,9 @@
         * Stop: `gradle :ch06:appStop`
     * Developing Endpoint with MVC
         * Error Handling
+* Spring Boot
+    * Building simple application
+        * Using @RestController
+        * Using TestRestTemplate for testing
+        * Adding static content
+        * Build executable jar: `gradle :ch07:bootJar`

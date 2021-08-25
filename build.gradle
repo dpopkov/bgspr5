@@ -4,6 +4,7 @@ targetCompatibility = 1.11
 
 ext {
     springFrameworkVersion = "5.3.9"
+    springFrameworkBootVersion = "2.5.4"
     jacksonVersion = "2.12.4"
     testNgVersion = "7.4.0"
     grettyVersion = "3.0.6"
@@ -16,7 +17,6 @@ allprojects {
     apply plugin: 'java'
 
     repositories {
-        jcenter()
         mavenCentral()
     }
 

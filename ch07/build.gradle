@@ -1,0 +1,19 @@
+plugins {
+    id 'org.springframework.boot' version "$springFrameworkBootVersion"
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+bootJar {
+    archiveFileName = 'bgspr5-ch07'
+}
+
+test {
+    useTestNG()
+}
