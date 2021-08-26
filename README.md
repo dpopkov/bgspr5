@@ -50,3 +50,6 @@
         * Build executable jar: `gradle :ch07:bootJar`
     * Spring Boot and Database Connections
         * Initializing data with Spring Boot
+        * Building ArtistRepository
+        * Building ArtistController
+        * Handling Exceptions in Spring Boot

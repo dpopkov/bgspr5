@@ -8,6 +8,7 @@ apply plugin: 'io.spring.dependency-management'
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-devtools'
     implementation 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
