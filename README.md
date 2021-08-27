@@ -53,3 +53,8 @@
         * Building ArtistRepository
         * Building ArtistController
         * Handling Exceptions in Spring Boot
+Spring data access with JdbcTemplate
+    * Project Setup
+        * Lombok
+        * Entity model
+        * Data initialization SQL scripts
