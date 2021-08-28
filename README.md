@@ -58,3 +58,6 @@ Spring data access with JdbcTemplate
         * Lombok
         * Entity model
         * Data initialization SQL scripts
+    * Accessing data
+        * JdbcTemplate.query()
+        * @Transactional
