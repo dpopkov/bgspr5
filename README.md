@@ -61,3 +61,4 @@ Spring data access with JdbcTemplate
     * Accessing data
         * JdbcTemplate.query()
         * @Transactional
+    * Adding REST endpoints
