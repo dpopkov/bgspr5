@@ -53,7 +53,7 @@
         * Building ArtistRepository
         * Building ArtistController
         * Handling Exceptions in Spring Boot
-Spring data access with JdbcTemplate
+* Spring data access with JdbcTemplate
     * Project Setup
         * Lombok
         * Entity model
@@ -62,3 +62,4 @@ Spring data access with JdbcTemplate
         * JdbcTemplate.query()
         * @Transactional
     * Adding REST endpoints
+* Persistence with Spring and Spring Data
