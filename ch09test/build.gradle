@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot' version "$springFrameworkBootVersion" apply false
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+    }
+}
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.data:spring-data-commons'
+    implementation "org.testng:testng:$testNgVersion"
+    implementation project(":ch09common")
+}
