@@ -1,0 +1,27 @@
+plugins {
+    id 'org.springframework.boot' version "$springFrameworkBootVersion" apply false
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+    }
+}
+dependencies {
+    implementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.12.4'
+    implementation project(":ch09common")
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+//    implementation 'org.springframework.boot:spring-boot-starter-test'
+//    implementation 'org.springframework.data:spring-data-commons'
+//    implementation "org.testng:testng:$testNgVersion"
+
+    testImplementation project(":ch09test")
+}
